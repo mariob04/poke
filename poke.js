@@ -36,7 +36,7 @@ const pokemonListElement = document.getElementById('pokemon-list');
         pokemonListElement.appendChild(listItem);
       }
 
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: 'auto' });
 
       searchInput.focus();
     }
